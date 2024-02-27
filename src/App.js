@@ -1,9 +1,12 @@
-import ListItem from "./components/ListItem";
-
-function App() {
+import Products from "./components/Products/Products";
+import Header from "./components/Layout/header"
+import SubHeader from "./components/Layout/subHeader"
+const App = () => {
   return (
-    <div className="App">
-      <ListItem></ListItem>
+    <div>
+      <Header/>
+      <SubHeader/>
+      <Products/>
     </div>
   );
 }
